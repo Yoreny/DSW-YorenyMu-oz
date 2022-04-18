@@ -1,0 +1,26 @@
+header{
+    background-color:  #rgba(0, 255, 98, 0.897);
+    padding: 20px;
+}
+nav {
+    background-color:  #rgb(0, 255, 221);
+    color: brown;
+}
+section{
+    display: grid;
+    grid-template-columns: ifr ifr ifr ifr;
+}
+article{
+    background-color:  #rgb(38, 233, 168);
+    grid-column: 1/4;
+}
+aside{
+    background-color:  #rgb(215, 250, 244);
+    padding: 30px;
+    grid-area: 4/5;
+}
+footer{
+    background-color: aliceblue;
+    color:  #rgb(43, 226, 180);
+    padding: 10px;
+}
