@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    background-color:  rgba(0, 255, 255, 0.897);
+    padding: 20px;
+    color: bisque;
+}
+nav {
+    background-color:  blue;
+    color: brown;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: rgb(90, 158, 214);
+    grid-column: 1/4;
+}
+aside{
+    background-color: antiquewhite;
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: aliceblue;
+    color: rgb(43, 122, 226);
+    padding: 10px;
+}
